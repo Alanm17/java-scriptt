@@ -44,3 +44,15 @@ const TempratureschangesNew = function (t1, t2) {
 };
 const amplitudeNew = TempratureschangesNew([1, 3, 4, 5], [9, 8, 7, 2]);
 console.log(amplitudeNew);
+
+const measureAlan = function () {
+  const measurement
+  {
+    type: 'temp',
+    unit: 'celsius',
+    value: prompt('Degrees celsius'),
+  };
+  const alan = measurement.value + 273;
+  return Alan;
+};
+console.log(measureAlan());
